@@ -22,37 +22,39 @@
 </head>
 <body>
 	<div class="container">
-		<object data="asset/WQMS IEEE Paper.pdf" type="application/pdf"></object>
+		<object data="asset/WQMS IEEE Paper.pdf" type="application/pdf" scrolling="auto"></object>
 	</div>
 </body>
 </html> -->
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Grad Project Paper</title>
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-			padding: 0;
-		}
-		.container {
-			height: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-		object {
-			width: 100%;
-			height: 100%;
-		}
-	</style>
+    <title>Grad Project Paper</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: auto; /* Add this line */
+        }
+        object {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-	<div class="container">
-		<object data="asset/WQMS IEEE Paper.pdf" type="application/pdf" scrolling="auto"></object>
-	</div>
+    <div class="container">
+        <object data="asset/WQMS IEEE Paper.pdf" type="application/pdf" scrolling="auto"></object>
+    </div>
 </body>
 </html>
